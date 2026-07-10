@@ -1,0 +1,30 @@
+{
+  "name": "mern_ecommerce",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Back-End/server.js",
+    "dev":"nodemon Back-End/server.js",
+    "build":"npm install && npm install --prefix Front-End && npm run build --prefix Front-End"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cloudinary": "^2.8.0",
+    "cookie-parser": "^1.4.7",
+    "crypto": "^1.0.1",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "express-fileupload": "^1.5.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.18.3",
+    "nodemailer": "^7.0.9",
+    "nodemon": "^3.1.10",
+    "razorpay": "^2.9.6",
+    "validator": "^13.15.15"
+  }
+}
